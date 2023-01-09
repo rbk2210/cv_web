@@ -33,7 +33,7 @@ ul li a {
 #social {
     width: auto;
     height: 500px;
-    background-color: coral;
+    background-color: #000000;
 }
 
 #redes {
@@ -47,15 +47,17 @@ ul li a {
 
 #redes a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
 }
 
 #redes a:hover {
-    color: #000000;
+    color: transparent;
+    text-shadow: 0 0  .5px #ffffff, 0 0 1px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
 }
 
 #content_item {
@@ -68,9 +70,8 @@ ul li a {
     border-radius: 4px;
 }
 
-#content_item:hover {
-    background-color: #ffffff;
-}
+
+
 
 .first_item {
     margin-top: px;
@@ -110,6 +111,12 @@ ul li a {
     width: 350px;
     height: 280px;
     margin-left: 20%;
+}
+
+#parrafo p {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 #qr {
