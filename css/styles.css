@@ -39,7 +39,6 @@ ul li a {
 #redes {
     width: 350px;
     height: 350px;
-    background-color: aqua;
     margin-left: 10px;
     margin-top: 20px;
     padding-top: 60px;
@@ -51,15 +50,26 @@ ul li a {
     font-size: 30px;
     margin-top: 30px;
     margin-left: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#redes a:hover {
+    color: #000000;
 }
 
 #content_item {
     width: 150px;
     height: 40px;
-    background-color: bisque;
     display: block;
     margin-left: 25%;
     margin-top: 30px;
+    padding-top: 5px;
+    border-radius: 4px;
+}
+
+#content_item:hover {
+    background-color: #ffffff;
 }
 
 .first_item {
@@ -80,4 +90,43 @@ ul li a {
     height: 350px;
     margin-left: 15px;
     float: left;
+}
+
+#about h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#about p {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#parrafo {
+    width: 350px;
+    height: 280px;
+    margin-left: 20%;
+}
+
+#qr {
+    width: 310px;
+    height: 390px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+#qr img {
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+#pie p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
 }
