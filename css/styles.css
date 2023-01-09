@@ -5,9 +5,32 @@
 
 #navegation {
     height: 60px;
-    width:auto;
+    width:100%;
     border: 4px black;
     background-color: aquamarine;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#central {
+    width: auto;
+    height: 1400px;
+    background-color: blueviolet;
+}
+
+#central section h1 {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 70px;
+}
+
+#central section img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-top: 50px;
 }
 
 #unorder_list {
@@ -93,7 +116,7 @@ ul li a {
     float: left;
 }
 
-#about h2 {
+#about h3 {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
