@@ -4,7 +4,7 @@
 }
 
 #navegation {
-    height: 50px;
+    height: 60px;
     width:auto;
     border: 4px black;
     background-color: aquamarine;
@@ -18,7 +18,7 @@
 ul li {
     list-style: none;
     float: left;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 15px;
     padding: 5px;
 }
@@ -26,6 +26,12 @@ ul li {
 ul li a {
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Seymour One, sans-serif;
+}
+
+#social {
+    width: auto;
+    height: 500px;
+    background-color: coral;
 }
