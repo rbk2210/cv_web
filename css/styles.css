@@ -6,8 +6,8 @@
 #navegation {
     height: 60px;
     width:100%;
-    border: 4px black;
-    background-color: aquamarine;
+    box-shadow: 0 0  .5px #cecece, 0 0 1px #cecece, 0 0 5px;
+    background-color: #E8DFD3;
     position: fixed;
     margin-top: 0;
     margin-bottom: 10px;
@@ -86,7 +86,7 @@ ul li a {
 #social {
     width: auto;
     height: 500px;
-    background-color: #000000;
+    background-color: #232222;
 }
 
 #redes {
