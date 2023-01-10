@@ -221,23 +221,27 @@ ul li a:hover {
     height: 350px;
     margin-left: 10px;
     margin-top: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
     float: left;
 }
 
 #redes a {
     text-decoration: none;
     font-size: 45px;
-    margin-top: 30px;
-    margin-left: 10px;
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
 
+#redes a i {
+    display: block;
+}
+
+
 #redes a:hover {
     color: transparent;
-    text-shadow: 0 0  .5px #ffffff, 0 0 1px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+    text-shadow: 0 0  .5px #ffffff, 0 0 1px #ffffff, 0 0 8px #ffffff;
 }
 
 #content_item {
