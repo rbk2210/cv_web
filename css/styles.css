@@ -3,11 +3,12 @@
     padding: 0;
 }
 
+
 #navegation {
     height: 60px;
     width:100%;
     box-shadow: 0 0  .5px #cecece, 0 0 1px #cecece, 0 0 5px;
-    background-color: #E8DFD3;
+    background-color: #E1D2BE;
     position: fixed;
     margin-top: 0;
     margin-bottom: 10px;
@@ -55,12 +56,13 @@
 }
 
 .container_form {
-    width: 60%;
-    height: 800px;
+    width: 50%;
+    height: 600px;
     border: 2px solid gray;
     border-radius: 8px;
     margin-top: 80px;
-    margin-left: 20%;
+    margin-left: 25%;
+    background-color: #E1D2BE;
 }
 
 #unorder_list {
@@ -81,6 +83,37 @@ ul li a {
     text-align: center;
     font-size: 20px;
     font-family: Seymour One, sans-serif;
+}
+
+#title_contact {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.camp {
+     display: block;
+     margin-top: 20px;
+     margin-left: 25%;
+}
+
+#camp {
+    margin-bottom: 20px;
+}
+
+.container_form textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 100px;
+    margin-left: 25%;
+}
+
+.btn_send {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30%;
 }
 
 #social {
