@@ -10,6 +10,7 @@
     box-shadow: 0 0  .5px #cecece, 0 0 1px #cecece, 0 0 5px;
     background-color: #E1D2BE;
     position: fixed;
+    z-index: 1;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -135,7 +136,7 @@
 
 .container_form {
     width: 50%;
-    height: 600px;
+    height: 500px;
     border: 2px solid gray;
     border-radius: 8px;
     margin-top: 100px;
@@ -159,8 +160,13 @@ ul li {
 ul li a {
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
-    font-family: Seymour One, sans-serif;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+ul li a:hover {
+    color: rgb(70, 57, 57);
 }
 
 #title_contact {

@@ -6,3 +6,27 @@ window.sr = ScrollReveal();
     distance: '-100px'
   });
 
+  sr.reveal('.central', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-10px'
+  });
+
+  sr.reveal('.tecno', {
+    duration: 4000,
+    origin: 'top',
+    distance: '-200px'
+  });
+
+
+  sr.reveal('.proyects', {
+    duration: 4000,
+    origin: 'top',
+    distance: '-200px'
+  });
+
+  sr.reveal('.container_form', {
+    duration: 4000,
+    origin: 'top',
+    distance: '-200px'
+  });
