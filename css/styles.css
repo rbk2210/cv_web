@@ -17,7 +17,7 @@
 
 #central {
     width: auto;
-    height: 2600px;
+    height: 2800px;
     background-color: #E8DFD3;
 }
 
@@ -136,7 +136,7 @@
 
 .container_form {
     width: 50%;
-    height: 500px;
+    height: 700px;
     border: 2px solid gray;
     border-radius: 8px;
     margin-top: 100px;
@@ -177,9 +177,11 @@ ul li a:hover {
 }
 
 .camp {
-     display: block;
-     margin-top: 20px;
-     margin-left: 25%;
+    width: 35%;
+    height: 25px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 25%;
 }
 
 #camp {
@@ -189,15 +191,23 @@ ul li a:hover {
 .container_form textarea {
     max-width: 300px;
     min-width: 300px;
-    max-height: 300px;
-    min-height: 100px;
+    max-height: 250px;
+    min-height: 150px;
     margin-left: 25%;
 }
 
 .btn_send {
     display: block;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 40%;
+    border: none;
+    outline: 0;
+    background: rgb(218, 154, 37);
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300 ease;
+    padding: 10px;
 }
 
 #social {

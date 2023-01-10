@@ -13,20 +13,20 @@ window.sr = ScrollReveal();
   });
 
   sr.reveal('.tecno', {
-    duration: 4000,
+    duration: 3000,
     origin: 'top',
     distance: '-200px'
   });
 
 
   sr.reveal('.proyects', {
-    duration: 4000,
+    duration: 3000,
     origin: 'top',
     distance: '-200px'
   });
 
   sr.reveal('.container_form', {
-    duration: 4000,
+    duration: 3000,
     origin: 'top',
     distance: '-200px'
   });
