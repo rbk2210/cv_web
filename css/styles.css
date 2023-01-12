@@ -2019,3 +2019,62 @@ ul li a:hover {
     }
 
 }
+
+/** ventana-modal **/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.modal-cont {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    margin: 0;
+}
+
+.modal-container {
+    display: flex;
+    background-color: #dfad6f;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 25px;
+    pointer-events: none;
+    opacity: 0;
+    top: 300;
+    left: 30;
+    height: 50px;
+    width: 40vw;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+
+}
+
+.button {
+    background-color: rgb(218, 154, 37);
+    border: 0;
+    border-radius: 3px;
+    height: 30px;
+    box-shadow: 0 2px 4px rgb(122, 82, 8);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.modal {
+    background-color: #fab662;
+    width: 600px;
+    max-width: 600px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow:  0 2px 4px #aa6e26;
+    text-align: center;
+}
+
+.modal p {
+    color: #ffffff;
+}

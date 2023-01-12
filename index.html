@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV web, Diego Sayago, Desarrollador  front-end, html css y javascript">
     <title>CV_Web</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/scrollreveal.js"></script>
@@ -11,26 +13,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="navegation" class="navegation">
-        <nav>
-            <ul id="unorder_list">
-                <li><a href="#central">Inicio</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div id="central" >
+    <header>
+        <div id="navegation" class="navegation">
+            <nav>
+                <ul id="unorder_list">
+                    <li><a href="#central">Inicio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="central">
         <section>
             <div class="central">
                 <h1> Diego Sayago</h1>
-            <img src="img/programming.jpg" alt="" id="program">
-            <h2 class="central"> Front-end Developer </h2>
+                <img src="img/programming.jpg" alt="Foto-perfil" id="program">
+                <h2 class="central"> Front-end Developer </h2>
             </div>
             <div id="tecno" class="tecno">
-                <img src="img/html.png" alt="" id="tecno_program">
-                <img src="img/css.png" alt="" id="tecno_program">
-                <img src="img/js.png" alt="" id="tecno_program">
+                <img src="img/html.png" alt="html" id="tecno_program">
+                <img src="img/css.png" alt="css" id="tecno_program">
+                <img src="img/js.png" alt="javascript" id="tecno_program">
             </div>
         </section>
         <div class="proyects">
@@ -39,7 +44,12 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,7 +57,12 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,7 +70,12 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,7 +83,12 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +96,12 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,62 +109,73 @@
                 <h4>Proyecto pendiente</h4>
                 <div class="loader">
                     <div class="container_loader">
-                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        <div class="lds-ring">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container_form" id="contact">
             <h3 id="title_contact">Contacto</h3>
-            <form action="#" autocomplete="off">
+            <form action="" autocomplete="off">
                 <input type="text" name="name" placeholder="Ingrese su nombre" class="camp">
                 <input type="text" name="lastname" placeholder="Ingrese aquí su apellido" class="camp">
                 <input type="email" name="email" placeholder="Ingrese su correo aquí" class="camp" id="camp">
                 <textarea name="text" placeholder="Ingrese aquí su mensaje"></textarea>
                 <input type="submit" name="send" value="Enviar Mensaje" class="btn_send">
             </form>
+            <div class="modal-cont">
+                <input id="open" class="button" type="submit" name="send" value="Otros medios de contácto">
+                <div class="modal-container" id="modal-container">
+                    <div class="modal">
+                        <p>Whatsapp +54 9 11-5555-5555</p>
+                        <p>Tel: - 011-4444-4444</p>
+                        <input id="close" class="button" type="submit" name="send" value="Cerrar">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
+
     <div id="social">
         <div id="redes">
-            <!--
-            <div id="content_item" class="first_item">
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-            </div>
-            <div id="content_item">
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-            </div>
-            <div id="content_item">
-                <a href="https://github.com/" target="_blank">Github</a>
-            </div>
-            <div id="content_item">
-                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-            </div>
-        -->
-        <div id="content_item" class="first_item"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-        <div id="content_item" class="first_item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-        <div id="content_item" class="first_item"><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></div>
-        <div id="content_item" class="first_item"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+            <div id="content_item" class="first_item"><a href="https://www.facebook.com/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a></div>
+            <div id="content_item" class="first_item"><a href="https://www.instagram.com/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></div>
+            <div id="content_item" class="first_item"><a href="https://github.com/" target="_blank"><i
+                        class="fa-brands fa-github"></i></a></div>
+            <div id="content_item" class="first_item"><a href="https://www.youtube.com/" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a></div>
 
         </div>
         <div id="barra_lateral_1"></div>
         <div id="about">
             <h3>Sobre mí</h3>
             <div id="parrafo">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum inventore perferendis fugiat nostrum tempora temporibus consequuntur assumenda nihil doloribus minus atque, dolorum in nam quisquam debitis quia pariatur distinctio explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores est corporis quaerat, dolor vitae molestias minus rerum minima sint magni, hic et debitis cupiditate. Laborum error voluptate expedita voluptas.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum inventore perferendis fugiat
+                    nostrum tempora temporibus consequuntur assumenda nihil doloribus minus atque, dolorum in nam
+                    quisquam debitis quia pariatur distinctio explicabo! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Incidunt maiores est corporis quaerat, dolor vitae molestias minus rerum minima
+                    sint magni, hic et debitis cupiditate. Laborum error voluptate expedita voluptas.</p>
             </div>
-         </div>
+        </div>
         <div id="barra_lateral_2"></div>
         <div id="qr">
-            <img src="img/qrcode-generado.png" alt="">
+            <img src="img/qrcode-generado.png" alt="Qr">
         </div>
         <footer id="pie">
             <p>CV - Derechos reservados 2023 ©</p>
         </footer>
     </div>
-    
+
     <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/5f4d2bcc82.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
