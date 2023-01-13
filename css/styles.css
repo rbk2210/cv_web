@@ -410,6 +410,11 @@ ul li a:hover {
         margin-left: 10px;
         float: left;
     }
+
+    .modal-cont{
+        height: 20px;
+        background-color: aqua;
+    }
 }
 
 @media only screen and (max-width: 1183px) {
@@ -1998,12 +2003,12 @@ ul li a:hover {
     #about p {
         margin-top: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 10px;
+        font-size: 8px;
     }
 
     #about {
         width: 70px;
-        height: 450px;
+        height: 40px;
         margin-left: 10px;
         margin-top: 25px;
         float: left;
@@ -2018,6 +2023,10 @@ ul li a:hover {
         min-width: 220px;
     }
 
+    #qr img {
+        opacity: 0;
+    }
+
 }
 
 /** ventana-modal **/
@@ -2029,8 +2038,9 @@ ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
-    margin: 0;
+    min-height: 5vh;
+    margin: 10px;
+    
 }
 
 .modal-container {
@@ -2058,6 +2068,7 @@ ul li a:hover {
     background-color: rgb(218, 154, 37);
     border: 0;
     border-radius: 3px;
+    margin-top: 10px;
     height: 30px;
     box-shadow: 0 2px 4px rgb(122, 82, 8);
     color: #ffffff;
